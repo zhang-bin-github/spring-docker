@@ -31,9 +31,13 @@ public class Teacher {
 
     @Override
     public String toString() {
+
+        System.out.println("====================");
         return "Teacher{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
     }
+
+
 }
